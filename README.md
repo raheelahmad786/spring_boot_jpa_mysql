@@ -1,6 +1,4 @@
-# spring_boot_jpa_mysql
-
-# Example
+# spring boot jpa mysql example
 
 https://start.spring.io/
 
