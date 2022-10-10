@@ -23,5 +23,13 @@ public class SessionService {
 	public void addUser(Session session) {
 		sessionRepository.save(session);
 	}
-
+	
+	public void deleteUser(Session session) {
+		sessionRepository.delete(session);
+	}
+	
+	public Session getUserSession(int id) {
+		Session tempsession = sessionRepository.findById(id).get();
+		return tempsession;
+	}
 }
